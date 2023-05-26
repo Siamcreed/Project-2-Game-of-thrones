@@ -1,6 +1,7 @@
 import Todoform from './Todoform';
 import Home from './Home';
 import React, { useState } from 'react';
+import './mainpage.css';
 
 export default function MainPage(){
     const [Character, setCharacter] = useState("");

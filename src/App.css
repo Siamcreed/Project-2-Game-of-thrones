@@ -40,3 +40,12 @@
 .selected{
   text-decoration: line-through;
 }
+
+.navbar{
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
