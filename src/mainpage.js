@@ -217,6 +217,9 @@ return(
 
           <button onClick={()=>csetSelected(!cselected)}>Select</button>
           <button onClick={deleteculture}>Delete</button>
+          <button onClick={() => setIsEditing(!isEditing)}>
+              {isEditing ? "Cancel" : "Edit"}
+            </button>
         </div>}
 </div>
 
