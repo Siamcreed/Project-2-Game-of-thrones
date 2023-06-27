@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Siamcreed/proto-project/static/css/main.539b9340.css",
+    "main.js": "/Siamcreed/proto-project/static/js/main.db56c900.js",
+    "static/js/787.cb0682c6.chunk.js": "/Siamcreed/proto-project/static/js/787.cb0682c6.chunk.js",
+    "index.html": "/Siamcreed/proto-project/index.html",
+    "main.539b9340.css.map": "/Siamcreed/proto-project/static/css/main.539b9340.css.map",
+    "main.db56c900.js.map": "/Siamcreed/proto-project/static/js/main.db56c900.js.map",
+    "787.cb0682c6.chunk.js.map": "/Siamcreed/proto-project/static/js/787.cb0682c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.539b9340.css",
+    "static/js/main.db56c900.js"
+  ]
+}
