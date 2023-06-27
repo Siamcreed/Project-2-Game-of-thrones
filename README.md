@@ -62,4 +62,4 @@ I got the MVP done.
 # Bugs
 I attempted to add edit buttons to other items but failed. I can't retrieve all the items.
 # Improvement
-To add edit button to all the items. To be able to get all the charcters and filter through them.
+To add edit button to all the items. To be able to get all the charcters and filter through them.# firstdeploy
