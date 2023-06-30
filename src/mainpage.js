@@ -147,14 +147,15 @@ const [isEditing, setIsEditing] = useState(false);
 //   setIsEditing(!isEditing);
 // }
 {isEditing ? (
-  <Todoform addinfo={addinfo} editinfo={editinfo}/>
+  <Todoform addinfo={addinfo} editinfo={editinfo} />
 ) : (
-  <div>
+  <>
     <h2>{Character.name}</h2>
     <p>Gender: {Character.gender}</p>
     {/* Rest of the character info */}
-  </div>
+  </>
 )}
+
 
  //This variable will let me clear a specific item
 //  function markItem(props) {
