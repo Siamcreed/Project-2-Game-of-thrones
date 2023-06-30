@@ -146,6 +146,8 @@ const [isEditing, setIsEditing] = useState(false);
 // const Edit = () => {
 //   setIsEditing(!isEditing);
 // }
+
+// eslint-disable-next-line
 {isEditing ? (
   <Todoform addinfo={addinfo} editinfo={editinfo} />
 ) : (
@@ -155,6 +157,7 @@ const [isEditing, setIsEditing] = useState(false);
     {/* Rest of the character info */}
   </>
 )}
+
 
 
  //This variable will let me clear a specific item
