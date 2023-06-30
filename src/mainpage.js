@@ -1,5 +1,4 @@
 import Todoform from './Todoform';
-import Home from './Home';
 import React, { useState } from 'react';
 import './mainpage.css';
 
@@ -8,12 +7,12 @@ export default function MainPage(){
   const [error, setError] = useState(null);
   const [selected, setSelected] = useState(false);
   const [fatherselected, setfatherSelected] = useState(false);
-  const [nselected, nsetSelected] = useState(false);
+  // const [nselected, nsetSelected] = useState(false);
   const [gselected, gsetSelected] = useState(false);
   const [cselected, csetSelected] = useState(false);
   const [bselected, bsetSelected] = useState(false);
   const [dselected, dsetSelected] = useState(false);
-  const [tselected, tsetSelected] = useState(false);
+  // const [tselected, tsetSelected] = useState(false);
   const [aselected, asetSelected] = useState(false);
   const [mselected, msetSelected] = useState(false);
   const [sselected, ssetSelected] = useState(false);
@@ -21,9 +20,9 @@ export default function MainPage(){
   const [boselected, bosetSelected] = useState(false);
   const [tvselected, tvsetSelected] = useState(false);
   const [pselected, psetSelected] = useState(false);
-  const [adselected, adsetSelected] = useState(false);
+  // const [adselected, adsetSelected] = useState(false);
 
-  const [isediting, setIsediting] = useState(false);
+  // const [isediting, setIsediting] = useState(false);
 
 
   function deleteAllInfo() {
@@ -144,9 +143,9 @@ function deleteactor(index) {
 
 //This variable will allow me to edit the information being displayed
 const [isEditing, setIsEditing] = useState(false);
-const Edit = () => {
-  setIsEditing(!isEditing);
-}
+// const Edit = () => {
+//   setIsEditing(!isEditing);
+// }
 {isEditing ? (
   <Todoform addinfo={addinfo} editinfo={editinfo}/>
 ) : (
@@ -158,14 +157,14 @@ const Edit = () => {
 )}
 
  //This variable will let me clear a specific item
- function markItem(props) {
-  const Marked = {...Character}
-  const Mark = Marked
- }
-//This one will help me clear all the items
- const Clear_All = () =>{
+//  function markItem(props) {
+//   const Marked = {...Character}
+//   const Mark = Marked
+//  }
+// //This one will help me clear all the items
+//  const Clear_All = () =>{
 
- }
+//  }
 
  function handleBtnClick() {
   setSelected(!selected);
