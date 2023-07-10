@@ -3,7 +3,7 @@ I spent 5 days on this and it is a solo project.
 
 
 # Deployment
-https://siamcreed.github.io/proto-project/
+[https://siamcreed.github.io/proto-project/]
 
 
 # Technologies
