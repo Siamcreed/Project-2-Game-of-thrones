@@ -3,7 +3,7 @@ I spent 5 days on this and it is a solo project.
 
 
 # Deployment
-[https://siamcreed.github.io/proto-project/]
+https://siamcreed.github.io/proto-project/
 
 
 # Technologies
@@ -61,20 +61,22 @@ As a user I should be able to see the character details.
 
 Day 1: I extracted data from an Api using initially the axios method but later the fetch method, which was easy but I ran into a problem. The problem was that in the console I could render all the characters in the console but not in the browser, I found a work around by rendering only one character and the items underneath it using {Character.item} the character is pulled straight from the api and the item part is also from the api but it is specific attributes from the api and it would look more like {Character.gender} . 
 
-const handleClick = () => {
+``````
+ const handleClick = () => {
     //This url has all the game of thrones characters and it depends of the number at the end of the 
     fetch('https://anapioficeandfire.com/api/characters/583')
       .then(response => response.json())
       .then(data => setCharacter(data))
       .catch(error => setError(error));
   }
-
+``````
 
 Day 2: I made a component to render the character and the features which was called mainpage. I then added the fetch api into it and rendered. I also started setting up the root pages so I could navigate through the components easily with nav and routes from React and then I made more components such as home.js(Which is the homepage) and todoform.js . 
 
 
 
 Day 3: On day 3 I had trouble adding functions to the characters so I made another component that would allow me to add an item to the list called todoform. Initially it was not functional because I made some spelling mistakes but later it was functional after debugging. I then imported todoform into mainpage and rendered it so I could test it to make sure it works. After that I started setting up individual functions that would allow me to delete or select the items on the page. 
+``````
 <h2>{isEditing ? "Edit info" : "Add some information"}</h2>
     <form onSubmit={isEditing ? handleEditinfo : handleAddinfo}>
       <input
@@ -95,19 +97,20 @@ Day 3: On day 3 I had trouble adding functions to the characters so I made anoth
       )}
       <button onClick={handleDeleteinfo}>Delete info</button>
     </form>
-
+``````
 
 Day 4: I added extra features to the code that allowed me to edit and delete the item, and because of this I was able to add extra functions to the mainpage that allowed me to select (using mostly CSS) and delete specific Items and delete all. I also worked on the CSS to make the page look better by adding a background picture and some more styling.
+```
  <button onClick={deletefather}>Delete</button>
   <button onClick={deleteAllInfo}>Delete All</button>
-
+```
 
 Day 5: I finished the routes for the app and tested the app. I ran into some bugs that made the page reload instead of switching and the select function only highlighted the selected item instead of deleting.I debugged it by changing the CSS to line through.
-
+```
 .selected {
     text-decoration: line-through;
   }
-
+```
 
 
 
